@@ -1,26 +1,45 @@
-# Segmentazione della clientela per una campagna di marketing di un'azienda di servizi finanziari
+# Segmentazione della clientela per campagne di marketing mirate  
 
-L'azienda di servizi finanziari per cui lavori sta investendo in una nuova campagna di marketing per per promuovere la propria linea di carte di credito.
+## 📌 Descrizione del progetto  
 
-Hai a disposizione un dataset contiene le seguenti informazioni su 9000 possessori di carte di credito dell'azienda:
+Questo progetto applica tecniche di machine learning per segmentare la clientela in gruppi omogenei basati sui comportamenti di spesa e sull’utilizzo delle carte di credito. L’obiettivo è ottimizzare le campagne di marketing 🎯, migliorare la personalizzazione delle offerte 🛍️ e massimizzare il ritorno sull’investimento 💰.  
 
- - CUST_ID : Identificazione del titolare della carta di credito (Categorico)
- - BALANCE : Importo del saldo rimasto sul conto per effettuare acquisti
- - BALANCE_FREQUENCY : frequenza di aggiornamento del saldo, punteggio tra 0 e 1 (1 = aggiornato frequentemente, 0 = non aggiornato frequentemente).
- - PURCHASES : Importo totale di acquisti effettuati dal conto
- - ONEOFF_PURCHASES : Importo massimo di acquisti effettuati in un'unica soluzione
- - INSTALLMENTS_PURCHASES : Importo degli acquisti effettuati a rate
- - CASH_ADVANCE : Anticipo in contanti dato dall'utente
- - PURCHASES_FREQUENCY : frequenza degli acquisti, punteggio tra 0 e 1 (1 = acquisti frequenti, 0 = acquisti non frequenti).
- - ONEOFF_PURCHASES_FREQUENCY : Quanto frequentemente gli acquisti vengono effettuati in un'unica soluzione (1 = acquisti frequenti, 0 = acquisti non frequenti).
- - PURCHASES_INSTALLMENTS_FREQUENCY : frequenza con cui vengono effettuati gli acquisti a rate (1 = frequentemente, 0 = non frequentemente).
- - CASH_ADVANCE_FREQUENCY : frequenza con cui viene pagato l'anticipo in contanti
- - CASH_ADVANCE_TRX : Numero di transazioni effettuate con "contanti in anticipo".
- - PURCHASES_TRX : Numero di transazioni di acquisto effettuate
- - CREDIT_LIMIT : Limite della carta di credito dell'utente
- - PAYMENTS  : Importo dei pagamenti effettuati dall'utente
- - MINIMUM_PAYMENTS : Importo minimo dei pagamenti effettuati dall'utente
- - PRC_FULL_PAYMENT : Percentuale del pagamento completo pagato dall'utente
- - TENURE : Durata del servizio di carta di credito per l'utente
+L’analisi dei dati consente di individuare cluster di clienti con esigenze e abitudini simili, facilitando la definizione di strategie di comunicazione più efficaci 📊.  
 
- Il tuo compito è quello di segmentare la clientela attuale indentificando dei cluster verso la quale l'azienda dovrà indirizzare apposite campagne di marketing.
+## 🛠️ Tecnologie utilizzate  
+
+- 🐍 **Python**  
+- 📦 **Librerie**: pandas, numpy, matplotlib, seaborn, scikit-learn  
+- 💻 **Ambiente di sviluppo**: Jupyter Notebook  
+
+## 📈 Risultati ottenuti  
+
+L’analisi ha identificato **quattro cluster distinti** di clienti, ciascuno con comportamenti unici riguardo all’utilizzo delle carte di credito. Questa segmentazione consente di:  
+
+✅ **Personalizzare le campagne di marketing** creando messaggi su misura per ciascun cluster.  
+✅ **Ottimizzare le strategie di fidelizzazione** identificando i clienti più redditizi e migliorando la customer experience.  
+✅ **Aumentare il ROI** migliorando la precisione delle campagne di marketing.  
+
+---
+
+# Customer Segmentation for Targeted Marketing Campaigns  
+
+## 📌 Project Description  
+
+This project applies machine learning techniques to segment customers into homogeneous groups based on their spending behavior and credit card usage. The goal is to optimize marketing campaigns 🎯, enhance offer personalization 🛍️, and maximize return on investment 💰.  
+
+Data analysis enables the identification of customer clusters with similar needs and habits, facilitating the development of more effective communication strategies 📊.  
+
+## 🛠️ Technologies Used  
+
+- 🐍 **Python**  
+- 📦 **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn  
+- 💻 **Development Environment**: Jupyter Notebook  
+
+## 📈 Results Achieved  
+
+The analysis identified **four distinct customer clusters**, each with unique behaviors regarding credit card usage. This segmentation allows for:  
+
+✅ **Personalizing marketing campaigns** by creating tailored messages for each cluster.  
+✅ **Optimizing retention strategies** by identifying the most profitable customers and improving the customer experience.  
+✅ **Increasing ROI** by enhancing the precision of marketing campaigns.  
